@@ -1,4 +1,3 @@
-# cs411_Final_Project
 Title: Find the right University and Program with a Keyword
 
 
@@ -38,7 +37,7 @@ Database Techniques:
 - Indexing to acces data faster in the database 
 
 
-Extra-Credit Capabilities: What extra-credit capabilities have you developed if any?
+Extra Notes:
 - For widget 3 we are using two databases. We use neo4j databse to query university names from a users search while storing the users input to a mysql database. We do this for multiple reasons. Firstly, we wanted the app to be interactive and helpful to the student, so we decided to showcase the universities immeditaley after entry. This way a user does not need to click another button or widget to acces his or her saved info. In order to do this with minimal overhead, we wanted to be able to recieve and save in two different places rather than saving to a databsae and querying again from that database. This minimizes overhead for first time users as they do not need to wait for their database to populate before viewing. Secondly, as the developes and students of data we wanted to have access to a seperate table that tells us which universities students are chosing as their favorites and when. The mysql table that stores the data also has timestamps. Having the seperate table allows us to do more analytical research on this topic as well as join this table with other tables in our database for more insight. 
 
 
